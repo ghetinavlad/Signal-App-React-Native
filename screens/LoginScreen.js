@@ -24,7 +24,6 @@ const LoginScreen = ({navigation}) => {
         auth
         .signInWithEmailAndPassword(email, password)
         .catch(error => alert(error));
-
     }
 
     return (
